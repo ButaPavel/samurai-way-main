@@ -2,10 +2,17 @@ import React from 'react';
 import './App.css';
 
 function App() {
-  return (
+  return (<div>
+          <div>one div</div>
     <div className="App">
-     Hello, samurai! Let's go!
+    <ul>
+        <li>css</li>
+        <li>html</li>
+        <li>js</li>
+        <li>react</li>
+    </ul>
     </div>
+      </div>
   );
 }
 
